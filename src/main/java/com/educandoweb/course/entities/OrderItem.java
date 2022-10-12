@@ -71,9 +71,9 @@ public class OrderItem implements Serializable {
 		return Objects.hash(id);
 	}
 
-//	public Double getSubTotal() {
-//		return price * quantity;
-//	}
+	public Double getSubTotal() {
+		return price * quantity;
+	}
 	
 	@Override
 	public boolean equals(Object obj) {
